@@ -24,6 +24,12 @@ h1 {
     max-width: 550px;
     margin: auto;
     padding: 0 0 32px 0; }
+  @media (max-width: 600px) {
+    .header-wrapper img {
+      margin-top: 16px; }
+    .header-wrapper p {
+      position: absolute;
+      top: 210px; } }
 
 .headline {
   font-family: "Bitter", serif;
@@ -31,11 +37,21 @@ h1 {
   .headline h2 {
     margin: 32px 0 16px;
     line-height: 1.4em; }
+  @media (max-width: 600px) {
+    .headline {
+      font-size: 1em; }
+      .headline h2 {
+        margin: 16px 0 8px; } }
 
 #mc_embed_signup {
   clear: left;
   font-family: "Source Sans Pro", sans-serif;
   width: 100%; }
+  @media (max-width: 600px) {
+    #mc_embed_signup {
+      position: absolute;
+      top: 330px;
+      left: 0; } }
 
 .twitter-follow-button {
   position: fixed !important;
