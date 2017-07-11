@@ -39,7 +39,7 @@ h1 {
     line-height: 1.4em; }
   @media (max-width: 600px) {
     .headline {
-      font-size: 1em; }
+      font-size: .9em; }
       .headline h2 {
         margin: 16px 0 8px; } }
 
