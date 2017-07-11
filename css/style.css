@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro");
+body {
+  margin: 0;
+  padding: 0 16px;
+  background-color: #F1F1F1;
+  font-family: "Source Sans Pro", sans-serif; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+h1 {
+  font-family: "Bitter", serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 8px 0 16px 0; }
+
+.header-wrapper {
+  text-align: center; }
+  .header-wrapper img {
+    margin-top: 32px;
+    width: 50px; }
+  .header-wrapper p {
+    max-width: 550px;
+    margin: auto;
+    padding: 0 0 32px 0; }
+
+.headline {
+  font-family: "Bitter", serif;
+  font-size: 1.3em; }
+  .headline h2 {
+    margin: 32px 0 16px;
+    line-height: 1.4em; }
+
+#mc_embed_signup {
+  clear: left;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%; }
+
+.twitter-follow-button {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  margin: 16px;
+  z-index: 100; }
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map */
