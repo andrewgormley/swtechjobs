@@ -7,7 +7,7 @@
       <div class="header__navigation">
         <img src="img/swtechjobs.svg" alt="South West Tech Jobs">
         <h1>South West Tech Jobs</h1>
-        <div class="button"><a href="#">Post a job for FREE<a/></div>
+        <a href="#" class="button">Post a job for FREE<a/>
       </div>
 
       <div class="header__headline">
@@ -24,6 +24,43 @@
             <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
         </form>
+      </div>
+
+    </div>
+
+    <div class="job-container">
+
+      <div class="job">
+        <div class="job__title">
+          <h2>Digital Designer</h2>
+          <p>Pro:Direct Sport - Newton Abbot</p>
+        </div>
+
+        <div class="job__timestamp">
+          <p>July 14</p>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job__title">
+          <h2>Front-End Developer</h2>
+          <p>VentureHarbour - Remote</p>
+        </div>
+
+        <div class="job__timestamp">
+          <p>July 14</p>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job__title">
+          <h2>Full Stack Developer</h2>
+          <p>Crowdcube - Exeter</p>
+        </div>
+
+        <div class="job__timestamp">
+          <p>July 14</p>
+        </div>
       </div>
 
     </div>
