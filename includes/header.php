@@ -10,7 +10,6 @@
     <title>South West Tech Jobs</title>
     <link rel="icon" type="image/png" href="http://swtechjobs/img/favicon.png" />
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/mailchimp.css" type="text/css">
 
     <meta property="og:site_name" content="South West Tech Jobs">
     <meta property="og:title" content="South West Tech Jobs">

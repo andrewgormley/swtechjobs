@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro");
 body {
-  margin: 0;
-  padding: 0 16px;
+  margin: auto;
+  max-width: 1024px;
   background-color: #F1F1F1;
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0 16px; }
 
 a {
   text-decoration: none;
@@ -15,43 +16,50 @@ h1 {
   margin: 0;
   padding: 8px 0 16px 0; }
 
-.header-wrapper {
-  text-align: center; }
-  .header-wrapper img {
-    margin-top: 32px;
-    width: 50px; }
-  .header-wrapper p {
-    max-width: 550px;
-    margin: auto;
-    padding: 0 0 32px 0; }
-  @media (max-width: 600px) {
-    .header-wrapper img {
-      margin-top: 16px; }
-    .header-wrapper p {
-      position: absolute;
-      top: 210px; } }
-
-.headline {
+.header p {
+  text-align: center;
+  padding: 32px 0 8px 0;
+  margin: 0; }
+.header__navigation {
+  margin-top: 16px;
+  height: 40px; }
+  .header__navigation img {
+    float: left;
+    width: 40px; }
+  .header__navigation h1 {
+    float: left;
+    padding: 10px 0 0 8px; }
+.header__headline {
+  text-align: center;
   font-family: "Bitter", serif;
   font-size: 1.3em; }
-  .headline h2 {
+  .header__headline h2 {
     margin: 32px 0 16px;
     line-height: 1.4em; }
   @media (max-width: 600px) {
-    .headline {
+    .header__headline {
       font-size: .9em; }
-      .headline h2 {
-        margin: 16px 0 8px; } }
+      .header__headline h2 {
+        margin: 32px 0 8px; } }
+
+.button {
+  font-size: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00e3fa 100%);
+  padding: 11px 18px;
+  letter-spacing: .03em;
+  transition: all 0.23s ease-in-out 0s; }
+  .button a {
+    color: white; }
+  .button:hover {
+    opacity: .7; }
 
 #mc_embed_signup {
   clear: left;
   font-family: "Source Sans Pro", sans-serif;
   width: 100%; }
-  @media (max-width: 600px) {
-    #mc_embed_signup {
-      position: absolute;
-      top: 330px;
-      left: 0; } }
 
 .twitter-follow-button {
   position: fixed !important;
@@ -59,33 +67,5 @@ h1 {
   right: 0;
   margin: 16px;
   z-index: 100; }
-
-.typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite; }
-
-@keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */

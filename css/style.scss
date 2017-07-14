@@ -4,10 +4,11 @@ $primary-font: 'Bitter', serif ;
 $secondary-font: 'Source Sans Pro', sans-serif;
 
 body {
-  margin: 0;
-  padding: 0 16px;
+  margin: auto;
+  max-width: 1024px;
   background-color: #F1F1F1;
   font-family: $secondary-font;
+  padding: 0 16px;
 }
 
 a {
@@ -22,49 +23,66 @@ h1 {
   padding: 8px 0 16px 0;
 }
 
-.header-wrapper {
-  text-align: center;
-
-  img {
-    margin-top: 32px;
-    width: 50px;
-  }
+.header {
 
   p {
-    max-width: 550px;
-    margin: auto;
-    padding: 0 0 32px 0;
+    text-align: center;
+    padding: 32px 0 8px 0;
+    margin: 0;
   }
 
-  @media (max-width: 600px) {
+  &__navigation {
+    margin-top: 16px;
+    height: 40px;
 
     img {
-      margin-top: 16px;
+      float: left;
+      width: 40px;
     }
 
-    p {
-      position: absolute;
-      top: 210px;
+    h1 {
+      float: left;
+      padding: 10px 0 0 8px;
+    }
+  }
+
+  &__headline {
+    text-align: center;
+    font-family: $primary-font;
+    font-size: 1.3em;
+
+    h2 {
+      margin: 32px 0 16px;
+      line-height: 1.4em;
+    }
+
+    @media (max-width: 600px) {
+      font-size: .9em;
+
+      h2 {
+        margin: 32px 0 8px;
+      }
     }
   }
 
 }
 
-.headline {
-  font-family: $primary-font;
-  font-size: 1.3em;
+.button {
+  font-size: 13px;
+  font-family: $secondary-font;
+  float: right;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00e3fa 100%);
+  padding: 11px 18px;
+  letter-spacing: .03em;
+  transition: all 0.23s ease-in-out 0s;
 
-  h2 {
-    margin: 32px 0 16px;
-    line-height: 1.4em;
+  a {
+    color: white;
   }
 
-  @media (max-width: 600px) {
-    font-size: .9em;
-
-    h2 {
-      margin: 16px 0 8px;
-    }
+  &:hover {
+    opacity: .7;
   }
 }
 
@@ -72,12 +90,6 @@ h1 {
   clear:left;
   font-family: $secondary-font;
   width:100%;
-
-  @media (max-width: 600px) {
-    position: absolute;
-    top: 330px;
-    left: 0;
-  }
 }
 
 .twitter-follow-button {
@@ -86,27 +98,4 @@ h1 {
   right: 0;
   margin: 16px;
   z-index: 100;
-}
-
-.typed-cursor{
-	opacity: 1;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
-}
-
-@keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
-}
-@-moz-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
 }

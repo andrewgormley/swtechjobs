@@ -1,18 +1,22 @@
 <?php include "includes/header.php"; ?>
 
-    <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
-    <div class="header-wrapper">
+    <div class="header">
 
-      <img src="img/swtechjobs.svg" alt="South West Tech Jobs">
-      <h1>South West Tech Jobs</h1>
-
-      <div class="headline">
-        <h2>Looking for a position as <span class="element"></span></h2>
+      <div class="header__navigation">
+        <img src="img/swtechjobs.svg" alt="South West Tech Jobs">
+        <h1>South West Tech Jobs</h1>
+        <div class="button"><a href="#">Post a job for FREE<a/></div>
       </div>
-      <p>We are building a dedicated job board for the rapidly growing Tech Industry in the South West. Traditional job sites are not tailored for us, therefore this board will be focusing on Engineering, Design, Product, DevOps, Marketing and more.</p>
+
+      <div class="header__headline">
+        <h2>Looking for a position as </br><span class="element"></span></h2>
+      </div>
+      <p>Get a weekly email with the latest tech jobs</p>
 
       <div id="mc_embed_signup">
+        <link rel="stylesheet" href="css/mailchimp.css" type="text/css">
         <form action="//swtechjobs.us16.list-manage.com/subscribe/post?u=3ea77013099b912717ea670d7&amp;id=46045080ec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
@@ -24,9 +28,9 @@
 
     </div>
 
-
     <script src="js/jquery.js"></script>
     <script src="js/typed.js"></script>
+    <link rel="stylesheet" href="css/typed.css" type="text/css">
     <script>
       $(function(){
         $(".element").typed({
