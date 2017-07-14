@@ -1,7 +1,7 @@
 <?php include "includes/header.php"; ?>
 
     <!-- <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-
+    <div class="header-container">
     <div class="header">
 
       <div class="header__navigation">
@@ -26,6 +26,7 @@
         </form>
       </div>
 
+    </div>
     </div>
 
     <div class="job-container">

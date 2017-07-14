@@ -5,10 +5,9 @@ $secondary-font: 'Source Sans Pro', sans-serif;
 
 body {
   margin: auto;
-  max-width: 1024px;
+
   background-color: #F1F1F1;
   font-family: $secondary-font;
-  padding: 0 16px;
   color: #00042d;
 }
 
@@ -24,9 +23,14 @@ h1 {
   padding: 8px 0 16px 0;
 }
 
-.header {
+.header-container {
+  background-color: white;
+}
 
-  margin: 0 0 64px;
+.header {
+  max-width: 1024px;
+  margin: 0 auto 64px auto;
+  padding: 0 16px;
 
   p {
     text-align: center;
@@ -35,7 +39,7 @@ h1 {
   }
 
   &__navigation {
-    margin-top: 16px;
+    padding-top: 16px;
     height: 40px;
 
     img {
@@ -99,6 +103,12 @@ h1 {
   right: 0;
   margin: 16px;
   z-index: 100;
+}
+
+.job-container {
+  max-width: 1024px;
+  padding: 0 16px;
+  margin: auto;
 }
 
 .job {
