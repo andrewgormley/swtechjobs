@@ -33,7 +33,7 @@
 
       <div class="job">
         <div class="job__title">
-          <h2>Digital Designer</h2>
+          <h3>Digital Designer</h3>
           <p>Pro:Direct Sport - Newton Abbot</p>
         </div>
 
@@ -44,7 +44,7 @@
 
       <div class="job">
         <div class="job__title">
-          <h2>Front-End Developer</h2>
+          <h3>Front-End Developer</h3>
           <p>VentureHarbour - Remote</p>
         </div>
 
@@ -55,7 +55,7 @@
 
       <div class="job">
         <div class="job__title">
-          <h2>Full Stack Developer</h2>
+          <h3>Full Stack Developer</h3>
           <p>Crowdcube - Exeter</p>
         </div>
 

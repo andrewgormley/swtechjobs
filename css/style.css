@@ -81,7 +81,7 @@ h1 {
   margin: auto; }
 
 .job {
-  height: 55px;
+  height: 45px;
   margin: 16px 0;
   background-color: white;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -92,7 +92,8 @@ h1 {
   .job__title {
     float: left;
     width: 60%; }
-    .job__title h2 {
+    .job__title h3 {
+      font-family: "Bitter", serif;
       margin: 0 0 4px;
       font-weight: 400; }
     .job__title p {
