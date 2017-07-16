@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Bitter:400,700|Source+Sans+Pro:400,700,900");
 body {
   margin: auto;
-  background-color: #F1F1F1;
+  background-color: white;
   font-family: "Source Sans Pro", sans-serif;
   color: #00042d; }
 
@@ -17,11 +17,13 @@ h1 {
 
 .header-container {
   background-color: white;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  position: relative; }
 
 .header {
   max-width: 1024px;
-  margin: 0 auto 64px auto;
+  margin: 0 auto;
   padding: 0 16px; }
   .header p {
     text-align: center;
@@ -37,6 +39,8 @@ h1 {
       float: left;
       padding: 10px 0 0 8px;
       font-weight: 400; }
+    .header__navigation a {
+      color: #00042d; }
   .header__headline {
     text-align: center;
     font-family: "Bitter", serif;
@@ -51,7 +55,7 @@ h1 {
           margin: 32px 0 8px; } }
 
 .button {
-  color: white;
+  color: white !important;
   font-size: 13px;
   font-family: "Source Sans Pro", sans-serif;
   float: right;
@@ -69,11 +73,14 @@ h1 {
   width: 100%; }
 
 .twitter-follow-button {
-  position: fixed !important;
-  top: 0;
-  right: 0;
-  margin: 16px;
-  z-index: 100; }
+  display: block;
+  margin: 32px auto 0; }
+
+.bg-color {
+  background-color: #F1F1F1;
+  padding: 32px 0 64px;
+  z-index: 50;
+  position: relative; }
 
 .job-container {
   max-width: 700px;
@@ -85,10 +92,12 @@ h1 {
   margin: 16px 0;
   background-color: white;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  padding: 16px; }
+  padding: 16px;
+  display: block;
+  color: #00042d; }
   @media (max-width: 600px) {
     .job {
-      height: 80px; } }
+      height: 70px; } }
   .job__title {
     float: left;
     width: 60%; }
@@ -113,5 +122,13 @@ h1 {
         .job__timestamp p {
           text-align: left;
           margin: 4px 0 0; } }
+
+@media (min-width: 600px) {
+  .hide-for-large {
+    display: none; } }
+
+@media (max-width: 600px) {
+  .hide-for-small {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

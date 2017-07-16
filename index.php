@@ -1,12 +1,14 @@
 <?php include "includes/header.php"; ?>
 
-    <!-- <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
     <div class="header-container">
       <div class="header">
 
         <div class="header__navigation">
-          <img src="img/swtechjobs.svg" alt="South West Tech Jobs">
-          <h1>South West Tech Jobs</h1>
+          <a href="index.php">
+            <img src="img/swtechjobs.svg" alt="South West Tech Jobs">
+            <h1 class="hide-for-small">South West Tech Jobs</h1>
+            <h1 class="hide-for-large">SW Tech Jobs</h1>
+          </a>
           <a href="#" class="button">Post a job for FREE</a>
         </div>
 
@@ -29,41 +31,78 @@
       </div>
     </div>
 
-    <div class="job-container">
+    <div class="bg-color">
+      <div class="job-container">
 
-      <div class="job">
-        <div class="job__title">
-          <h3>Digital Designer</h3>
-          <p>Pro:Direct Sport - Newton Abbot</p>
-        </div>
+        <a href="#" class="job">
+          <div class="job__title">
+            <h3>Digital Designer</h3>
+            <p>Pro:Direct Sport - Newton Abbot</p>
+          </div>
 
-        <div class="job__timestamp">
-          <p>July 14</p>
-        </div>
+          <div class="job__timestamp">
+            <p>July 14</p>
+          </div>
+        </a>
+
+        <a href="#" class="job">
+          <div class="job__title">
+            <h3>Digital Designer</h3>
+            <p>Pro:Direct Sport - Newton Abbot</p>
+          </div>
+
+          <div class="job__timestamp">
+            <p>July 14</p>
+          </div>
+        </a>
+
+        <a href="#" class="job">
+          <div class="job__title">
+            <h3>Digital Designer</h3>
+            <p>Pro:Direct Sport - Newton Abbot</p>
+          </div>
+
+          <div class="job__timestamp">
+            <p>July 14</p>
+          </div>
+        </a>
+
+        <a href="#" class="job">
+          <div class="job__title">
+            <h3>Digital Designer</h3>
+            <p>Pro:Direct Sport - Newton Abbot</p>
+          </div>
+
+          <div class="job__timestamp">
+            <p>July 14</p>
+          </div>
+        </a>
+
+        <a href="#" class="job">
+          <div class="job__title">
+            <h3>Digital Designer</h3>
+            <p>Pro:Direct Sport - Newton Abbot</p>
+          </div>
+
+          <div class="job__timestamp">
+            <p>July 14</p>
+          </div>
+        </a>
+
+        <a href="#" class="job">
+          <div class="job__title">
+            <h3>Digital Designer</h3>
+            <p>Pro:Direct Sport - Newton Abbot</p>
+          </div>
+
+          <div class="job__timestamp">
+            <p>July 14</p>
+          </div>
+        </a>
+
+        <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
       </div>
-
-      <div class="job">
-        <div class="job__title">
-          <h3>Front-End Developer</h3>
-          <p>VentureHarbour - Remote</p>
-        </div>
-
-        <div class="job__timestamp">
-          <p>July 14</p>
-        </div>
-      </div>
-
-      <div class="job">
-        <div class="job__title">
-          <h3>Full Stack Developer</h3>
-          <p>Crowdcube - Exeter</p>
-        </div>
-
-        <div class="job__timestamp">
-          <p>July 14</p>
-        </div>
-      </div>
-
     </div>
 
     <script src="js/jquery.js"></script>
