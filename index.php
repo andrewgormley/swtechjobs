@@ -105,6 +105,10 @@
       </div>
     </div>
 
+    <div class="footer">
+      <p>Created in Torbay by <a href="http://andrewgormley.co.uk/" target="_blank">Andrew Gormley</a>.</p>
+    </div>
+
     <script src="js/jquery.js"></script>
     <script src="js/typed.js"></script>
     <link rel="stylesheet" href="css/typed.css" type="text/css">

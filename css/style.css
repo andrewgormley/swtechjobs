@@ -131,4 +131,16 @@ h1 {
   .hide-for-small {
     display: none; } }
 
+.footer {
+  background-color: #F1F1F1;
+  text-align: center; }
+  .footer p {
+    margin: 0;
+    padding-bottom: 32px;
+    font-size: 14px; }
+    .footer p a {
+      background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
 /*# sourceMappingURL=style.css.map */
