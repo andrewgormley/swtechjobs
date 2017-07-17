@@ -189,16 +189,23 @@ h1 {
 .footer {
   background-color: #F1F1F1;
   text-align: center;
+  font-size: 14px;
+  padding-bottom: 32px;
 
-  p {
-    margin: 0;
-    padding-bottom: 32px;
-    font-size: 14px;
+  a {
+    background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-    a {
-      background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+  &__links {
+    padding-bottom: 16px;
+  }
+
+  &__signoff {
+
+    p {
+      margin: 0;
     }
   }
 }

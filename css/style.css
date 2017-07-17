@@ -133,14 +133,16 @@ h1 {
 
 .footer {
   background-color: #F1F1F1;
-  text-align: center; }
-  .footer p {
-    margin: 0;
-    padding-bottom: 32px;
-    font-size: 14px; }
-    .footer p a {
-      background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 32px; }
+  .footer a {
+    background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .footer__links {
+    padding-bottom: 16px; }
+  .footer__signoff p {
+    margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

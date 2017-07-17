@@ -106,7 +106,13 @@
     </div>
 
     <div class="footer">
-      <p>Created in Torbay by <a href="http://andrewgormley.co.uk/" target="_blank">Andrew Gormley</a>.</p>
+      <div class="footer__links">
+        <a href="">Contact</a>
+      </div>
+      
+      <div class="footer__signoff">
+        Copyright © 2017. Created in Torbay by <a href="http://andrewgormley.co.uk/" target="_blank">Andrew Gormley</a>.
+      </div>
     </div>
 
     <script src="js/jquery.js"></script>
