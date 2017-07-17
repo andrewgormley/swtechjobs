@@ -107,9 +107,9 @@
 
     <div class="footer">
       <div class="footer__links">
-        <a href="">Contact</a>
+        <a href="mailto:info@swtechjobs.com">Contact</a>
       </div>
-      
+
       <div class="footer__signoff">
         Copyright © 2017. Created in Torbay by <a href="http://andrewgormley.co.uk/" target="_blank">Andrew Gormley</a>.
       </div>
