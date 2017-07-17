@@ -140,8 +140,6 @@ h1 {
     background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
-  .footer__links {
-    padding-bottom: 16px; }
   .footer__signoff p {
     margin: 0; }
 
