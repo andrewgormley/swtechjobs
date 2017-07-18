@@ -2,6 +2,7 @@
 
 $primary-font: 'Bitter', serif ;
 $secondary-font: 'Source Sans Pro', sans-serif;
+$mobile-break-point: 600px;
 
 body {
   margin: auto;
@@ -71,7 +72,7 @@ h1 {
       line-height: 1.4em;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-break-point) {
       font-size: .9em;
 
       h2 {
@@ -131,7 +132,7 @@ h1 {
   display: block;
   color: #00042d;
 
-  @media (max-width: 600px) {
+  @media (max-width: $mobile-break-point) {
     height: 70px;
   }
 
@@ -150,7 +151,7 @@ h1 {
       color: #A2A2A2;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-break-point) {
       width: 100%;
     }
   }
@@ -163,7 +164,7 @@ h1 {
       text-align: right;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-break-point) {
       width: 100%;
 
       p {
@@ -175,22 +176,21 @@ h1 {
 }
 
 .hide-for-large {
-  @media (min-width: 600px) {
+  @media (min-width: $mobile-break-point) {
     display: none;
   }
 }
 
 .hide-for-small {
-  @media (max-width: 600px) {
+  @media (max-width: $mobile-break-point) {
     display: none;
   }
 }
 
 .footer {
-  background-color: #F1F1F1;
   text-align: center;
   font-size: 14px;
-  padding-bottom: 32px;
+  padding: 32px 0;
 
   a {
     background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);

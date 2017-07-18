@@ -15,7 +15,7 @@
         <div class="header__headline">
           <h2>Looking for a position as </br><span class="element"></span></h2>
         </div>
-        <p>Get a weekly email with the latest tech jobs</p>
+        <p>Subscribe for a weekly email with the latest jobs.</p>
 
         <div id="mc_embed_signup">
           <link rel="stylesheet" href="css/mailchimp.css" type="text/css">
@@ -37,7 +37,7 @@
         <a href="#" class="job">
           <div class="job__title">
             <h3>Front End Engineer</h3>
-            <p>VentureHarbour - Remote</p>
+            <p>VentureHarbour - Exeter/Remote</p>
           </div>
 
           <div class="job__timestamp">
@@ -91,13 +91,6 @@
 
         <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-      </div>
-    </div>
-
-    <div class="footer">
-
-      <div class="footer__signoff">
-        Contact us <a href="mailto:info@swtechjobs.com">here</a> &#128075; . Created in Torbay by <a href="http://andrewgormley.co.uk/" target="_blank">Andrew Gormley</a>. Copyright © 2017.
       </div>
     </div>
 
