@@ -142,4 +142,9 @@ h1 {
   .footer__signoff p {
     margin: 0; }
 
+.jobAdvert {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px; }
+
 /*# sourceMappingURL=style.css.map */

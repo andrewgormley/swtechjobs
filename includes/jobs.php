@@ -1,4 +1,4 @@
-<a href="jobs/venture-harbour-front-end-developer" class="job">
+<a href="venture-harbour-front-end-developer" class="job">
   <div class="job__title">
     <h3>Front End Engineer</h3>
     <p>VentureHarbour - Exeter/Remote</p>
