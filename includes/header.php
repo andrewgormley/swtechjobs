@@ -8,19 +8,19 @@
     <meta name=“description” content="South West tech jobs, job opportunities in the South West, open positions in the South West, jobs in the tech industry">
     <meta name=“keywords” content="south, west, tech, industry, job, jobs, positions, open, work, Gloucestershire, Bristol, Wiltshire, Somerset, Dorset, Devon, Cornwall, developer, designer, marketing, manager, engineer, frontend, backend, ui, ux, product, devops">
     <title>South West Tech Jobs</title>
-    <link rel="icon" type="image/png" href="http://swtechjobs/img/favicon.png" />
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 
     <meta property="og:site_name" content="South West Tech Jobs">
     <meta property="og:title" content="South West Tech Jobs">
-    <meta property="og:image" content="http://swtechjobs.com/img/cover-swtechjobs.jpg">
+    <meta property="og:image" content="img/cover-swtechjobs.jpg">
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="720">
     <meta property="og:description" content="A dedicated job board for the rapidly growing Tech Industry in the South West. Focusing on Engineering, Design, Product, DevOps, Marketing and more.">
     <meta property="og:type" content="website">
 
     <meta name="twitter:site" content="@swtechjobs">
-    <meta name="twitter:image" content="http://swtechjobs.com/img/cover-swtechjobs.jpg">
+    <meta name="twitter:image" content="img/cover-swtechjobs.jpg">
     <meta name="twitter:card" content="summary_large_image">
 
     <script>

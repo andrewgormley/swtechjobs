@@ -12,11 +12,6 @@
           <a href="https://goo.gl/forms/NAJaCim87WGa2dJT2" target="_blank" class="button">Post a job for FREE</a>
         </div>
 
-        <div class="header__headline">
-          <h2>Looking for a position as </br><span class="element"></span></h2>
-        </div>
-        <p>Subscribe for a weekly email with the latest jobs.</p>
-
         <div id="mc_embed_signup">
           <link rel="stylesheet" href="css/mailchimp.css" type="text/css">
           <form action="//swtechjobs.us16.list-manage.com/subscribe/post?u=3ea77013099b912717ea670d7&amp;id=46045080ec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -32,27 +27,8 @@
     </div>
 
     <div class="bg-color">
-      <div class="job-container">
 
-        <?php include "includes/jobs.php"; ?>
-
-        <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-      </div>
     </div>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/typed.js"></script>
-    <link rel="stylesheet" href="css/typed.css" type="text/css">
-    <script>
-      $(function(){
-        $(".element").typed({
-          strings: ["a Front-End Developer?", "a UX Designer?", "a DevOps Engineer?", "a Marketing Rockstar?", "a Back-End Developer?", "a Product Manager?","an Office Dog &#128054;?"],
-          typeSpeed: 100,
-          loop: true,
-          backDelay: 1200,
-        });
-      });
-    </script>
 
 <?php include "/includes/footer.php"; ?>
