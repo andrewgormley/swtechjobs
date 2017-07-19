@@ -43,7 +43,7 @@ h1 {
   }
 
   &__navigation {
-    padding-top: 16px;
+    padding: 16px 0;
     height: 40px;
 
     img {
@@ -190,7 +190,7 @@ h1 {
 .footer {
   text-align: center;
   font-size: 14px;
-  padding: 32px 0;
+  padding: 32px 16px;
 
   a {
     background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
@@ -207,15 +207,53 @@ h1 {
 }
 
 .jobAdvert {
-  max-width: 1024px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 16px;
 
   &__heading {
 
+    h2 {
+      font-family: $primary-font;
+      font-size: 2em;
+      margin: 16px 0 8px;
+    }
+
+    p {
+      margin: 0 0 32px;
+      font-size: 1.5em;
+
+      a {
+        background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
   }
 
   &__body {
 
+  }
+}
+
+.apply {
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  padding: 16px;
+  margin-top: 32px;
+
+  &__title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 8px 0;
+  }
+
+  a {
+    background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
