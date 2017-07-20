@@ -149,17 +149,22 @@ h1 {
   max-width: 700px;
   margin: 0 auto;
   padding: 0 16px; }
-  .jobAdvert__heading h2 {
-    font-family: "Bitter", serif;
-    font-size: 2em;
-    margin: 16px 0 8px; }
-  .jobAdvert__heading p {
-    margin: 0 0 32px;
-    font-size: 1.5em; }
-    .jobAdvert__heading p a {
-      background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
+  .jobAdvert__heading {
+    margin: 0 0 32px; }
+    .jobAdvert__heading h2 {
+      font-family: "Bitter", serif;
+      font-size: 2em;
+      margin: 16px 0 8px; }
+    .jobAdvert__heading h3 {
+      font-size: 1.5em;
+      font-weight: normal;
+      margin: 0; }
+      .jobAdvert__heading h3 a {
+        background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    .jobAdvert__heading p {
+      margin: 8px 0; }
 
 .apply {
   background-color: white;

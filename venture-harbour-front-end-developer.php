@@ -11,8 +11,9 @@
     <div class="bg-color">
       <div class="jobAdvert">
         <div class="jobAdvert__heading">
-          <h2>Front End Web Engineer - Full time</h2>
-          <p><a href="">Venture Harbour</a> - Exeter/Remote</p>
+          <h2>Front End Web Engineer</h2>
+          <h3><a href="">Venture Harbour</a> - Exeter/Remote</h3>
+          <p>Contract type - Full time</p>
         </div>
         <div class="jobAdvert__body">
 
