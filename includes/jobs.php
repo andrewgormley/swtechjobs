@@ -20,7 +20,7 @@
   </div>
 </a>
 
-<a href="#" class="job">
+<a href="prodirectsport-full-stack-developer" class="job">
   <div class="job__title">
     <h3>Full Stack Developer</h3>
     <p>Pro:Direct Sport - Newton Abbot</p>
@@ -31,7 +31,7 @@
   </div>
 </a>
 
-<a href="#" class="job">
+<a href="prodirectsport-videographer" class="job">
   <div class="job__title">
     <h3>Videographer</h3>
     <p>Pro:Direct Sport - Newton Abbot</p>
