@@ -12,7 +12,7 @@
       <div class="jobAdvert">
         <div class="jobAdvert__heading">
           <h2>Front End Web Engineer</h2>
-          <h3><a href="">Venture Harbour</a> - Exeter/Remote</h3>
+          <h3><a href="https://www.ventureharbour.com/" target="_blank">Venture Harbour</a> - Exeter/Remote</h3>
           <p>Contract type - Full time</p>
         </div>
         <div class="jobAdvert__body">
@@ -72,6 +72,7 @@
             <p>Submit your details, resume and cover letter via this <a href="https://venture-harbour.breezy.hr/p/b99c979c796501-front-end-engineer/apply">application form</a>.</p>
           </div>
 
+          <?php include "includes/back.php"; ?>
 
         </div>
       </div>

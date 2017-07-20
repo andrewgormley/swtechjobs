@@ -181,4 +181,11 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
+.back {
+  margin-top: 32px;
+  display: block;
+  background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 /*# sourceMappingURL=style.css.map */
