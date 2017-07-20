@@ -11,8 +11,10 @@
     </form>
   </div>
 
+  <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   <div class="footer__signoff">
-    Contact us <a href="mailto:info@swtechjobs.com">here</a> &#128075; . Created in Torbay by <a href="http://andrewgormley.co.uk/" target="_blank">Andrew Gormley</a>. Copyright © 2017.
+    Contact us <a href="mailto:info@swtechjobs.com">here</a>. Created in Torbay by <a href="http://andrewgormley.co.uk/" target="_blank">Andrew Gormley</a>. Copyright © 2017.
   </div>
 </div>
 

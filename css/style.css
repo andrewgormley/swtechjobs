@@ -70,15 +70,16 @@ h1 {
 #mc_embed_signup {
   clear: left;
   font-family: "Source Sans Pro", sans-serif;
-  width: 100%; }
+  width: 100%;
+  border-bottom: 1px solid #F1F1F1; }
 
 .twitter-follow-button {
   display: block;
-  margin: 32px auto 0; }
+  margin: 32px auto; }
 
 .bg-color {
   background-color: #F1F1F1;
-  padding: 32px 0 64px;
+  padding: 32px 0;
   z-index: 50;
   position: relative; }
 
@@ -132,9 +133,11 @@ h1 {
     display: none; } }
 
 .footer {
+  max-width: 700px;
+  margin: 0 auto;
   text-align: center;
   font-size: 14px;
-  padding: 32px 16px; }
+  padding: 32px 16px 16px; }
   .footer a {
     background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
     -webkit-background-clip: text;

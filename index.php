@@ -3,14 +3,7 @@
     <div class="header-container">
       <div class="header">
 
-        <div class="header__navigation">
-          <a href="index">
-            <img src="img/swtechjobs.svg" alt="South West Tech Jobs">
-            <h1 class="hide-for-small">South West Tech Jobs</h1>
-            <h1 class="hide-for-large">SW Tech Jobs</h1>
-          </a>
-          <a href="https://goo.gl/forms/NAJaCim87WGa2dJT2" target="_blank" class="button">Post a job for FREE</a>
-        </div>
+        <?php include "includes/navigation.php"; ?>
 
         <div class="header__headline">
           <h2>Looking for a position as </br><span class="element"></span></h2>
@@ -35,8 +28,6 @@
       <div class="job-container">
 
         <?php include "includes/jobs.php"; ?>
-
-        <a href="https://twitter.com/swtechjobs" class="twitter-follow-button" data-show-count="false">Follow @swtechjobs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
       </div>
     </div>
