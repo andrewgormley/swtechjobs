@@ -42,7 +42,7 @@
   </div>
 </a>
 
-<a href="#" class="job">
+<a href="prodirectsport-content-editor" class="job">
   <div class="job__title">
     <h3>Content Editor</h3>
     <p>Pro:Direct Sport - Newton Abbot</p>
