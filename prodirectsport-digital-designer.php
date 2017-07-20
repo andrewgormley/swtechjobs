@@ -44,7 +44,7 @@
             <li>A true desire to deliver outstanding customer-focused solutions</li>
           </ul>
 
-          <h3>What we look for in our team</h3>
+          <h3>What we need you to do</h3>
 
           <ul>
             <li>Research and execute digital design solutions that support our e-Commerce Platform, Soccer Social Channels, &amp; any external publications</li>
@@ -66,7 +66,7 @@
 
           <div class="apply">
             <div class="apply__title">How to apply for this role</div>
-            <p>Click the 'apply for position' button on <a href="https://venture-harbour.breezy.hr/p/b99c979c796501-front-end-engineer/apply">this page</a>.</p>
+            <p>Click the 'apply for position' button on <a href="http://prodirectcareers.com/careers/digital-designer/">this page</a>.</p>
           </div>
 
           <?php include "includes/back.php"; ?>
