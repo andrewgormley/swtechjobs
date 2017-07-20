@@ -69,7 +69,7 @@
 
           <div class="apply">
             <div class="apply__title">How to apply for this role</div>
-            <p>Submit your details, resume and cover letter via this <a href="https://venture-harbour.breezy.hr/p/b99c979c796501-front-end-engineer/apply">application form</a>.</p>
+            <p>Submit your details, resume and cover letter via this <a href="https://venture-harbour.breezy.hr/p/b99c979c796501-front-end-engineer/apply" target="_blank">application form</a>.</p>
           </div>
 
           <?php include "includes/back.php"; ?>

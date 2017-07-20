@@ -64,7 +64,7 @@
 
           <div class="apply">
             <div class="apply__title">How to apply for this role</div>
-            <p>Click the 'apply for position' button on <a href="http://prodirectcareers.com/careers/full-stack-developer/">this page</a>.</p>
+            <p>Click the 'apply for position' button on <a href="http://prodirectcareers.com/careers/full-stack-developer/" target="_blank">this page</a>.</p>
           </div>
 
           <?php include "includes/back.php"; ?>
