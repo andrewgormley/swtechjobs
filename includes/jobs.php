@@ -1,11 +1,11 @@
 <a href="venture-harbour-front-end-developer" class="job">
   <div class="job__title">
     <h3>Front End Engineer</h3>
-    <p>VentureHarbour - Exeter/Remote</p>
+    <p>Venture Harbour - Exeter/Remote</p>
   </div>
 
   <div class="job__timestamp">
-    <p>July 14</p>
+    <p>July 21</p>
   </div>
 </a>
 
@@ -16,7 +16,7 @@
   </div>
 
   <div class="job__timestamp">
-    <p>July 14</p>
+    <p>July 21</p>
   </div>
 </a>
 
@@ -27,7 +27,7 @@
   </div>
 
   <div class="job__timestamp">
-    <p>July 14</p>
+    <p>July 21</p>
   </div>
 </a>
 
@@ -38,7 +38,7 @@
   </div>
 
   <div class="job__timestamp">
-    <p>July 14</p>
+    <p>July 21</p>
   </div>
 </a>
 
@@ -49,6 +49,6 @@
   </div>
 
   <div class="job__timestamp">
-    <p>July 14</p>
+    <p>July 21</p>
   </div>
 </a>
