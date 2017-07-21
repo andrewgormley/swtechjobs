@@ -16,7 +16,7 @@
   </div>
 
   <div class="job__timestamp">
-    <p>July 21</p>
+    <p>July 20</p>
   </div>
 </a>
 
@@ -27,7 +27,7 @@
   </div>
 
   <div class="job__timestamp">
-    <p>July 21</p>
+    <p>July 20</p>
   </div>
 </a>
 
@@ -38,7 +38,7 @@
   </div>
 
   <div class="job__timestamp">
-    <p>July 21</p>
+    <p>July 19</p>
   </div>
 </a>
 
@@ -49,6 +49,6 @@
   </div>
 
   <div class="job__timestamp">
-    <p>July 21</p>
+    <p>July 19</p>
   </div>
 </a>
