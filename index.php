@@ -10,13 +10,13 @@
         </div>
         <p>Subscribe for a weekly email with the latest jobs.</p>
 
-        <div id="mc_embed_signup">
+        <div class="mc_embed_signup">
           <link rel="stylesheet" href="css/mailchimp.css" type="text/css">
-          <form action="//swtechjobs.us16.list-manage.com/subscribe/post?u=3ea77013099b912717ea670d7&amp;id=46045080ec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+          <form action="//swtechjobs.us16.list-manage.com/subscribe/post?u=3ea77013099b912717ea670d7&amp;class=46045080ec" method="post" class="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="mc_embed_signup_scroll">
+              <input type="email" value="" name="EMAIL" class="email" class="mce-EMAIL" placeholder="Email address" required>
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3ea77013099b912717ea670d7_46045080ec" tabindex="-1" value=""></div>
-              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" class="mc-embedded-subscribe button"></div>
             </div>
           </form>
         </div>
