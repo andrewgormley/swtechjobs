@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,700|Source+Sans+Pro:400,700,900");
 body {
-  margin: 0;
-  padding: 0 16px;
-  background-color: #F1F1F1;
-  font-family: "Source Sans Pro", sans-serif; }
+  margin: auto;
+  background-color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #00042d; }
 
 a {
   text-decoration: none;
@@ -15,77 +15,177 @@ h1 {
   margin: 0;
   padding: 8px 0 16px 0; }
 
-.header-wrapper {
-  text-align: center; }
-  .header-wrapper img {
-    margin-top: 32px;
-    width: 50px; }
-  .header-wrapper p {
-    max-width: 550px;
-    margin: auto;
-    padding: 0 0 32px 0; }
-  @media (max-width: 600px) {
-    .header-wrapper img {
-      margin-top: 16px; }
-    .header-wrapper p {
-      position: absolute;
-      top: 210px; } }
+.header-container {
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  position: relative; }
 
-.headline {
-  font-family: "Bitter", serif;
-  font-size: 1.3em; }
-  .headline h2 {
-    margin: 32px 0 16px;
-    line-height: 1.4em; }
-  @media (max-width: 600px) {
-    .headline {
-      font-size: .9em; }
-      .headline h2 {
-        margin: 16px 0 8px; } }
+.header {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px; }
+  .header p {
+    text-align: center;
+    padding: 32px 0 8px 0;
+    margin: 0; }
+  .header__navigation {
+    padding: 16px 0;
+    height: 40px; }
+    .header__navigation img {
+      float: left;
+      width: 40px; }
+    .header__navigation h1 {
+      float: left;
+      padding: 10px 0 0 8px;
+      font-weight: 400; }
+    .header__navigation a {
+      color: #00042d; }
+  .header__headline {
+    text-align: center;
+    font-family: "Bitter", serif;
+    font-size: 1.3em; }
+    .header__headline h2 {
+      margin: 32px 0 16px;
+      line-height: 1.4em; }
+    @media (max-width: 600px) {
+      .header__headline {
+        font-size: .9em; }
+        .header__headline h2 {
+          margin: 32px 0 8px; } }
+
+.button {
+  color: white !important;
+  font-size: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  border-radius: 3px;
+  background-color: #11CD86;
+  padding: 11px 18px;
+  letter-spacing: .03em;
+  transition: all 0.23s ease-in-out 0s; }
+  .button:hover {
+    opacity: .7; }
 
 #mc_embed_signup {
   clear: left;
   font-family: "Source Sans Pro", sans-serif;
-  width: 100%; }
-  @media (max-width: 600px) {
-    #mc_embed_signup {
-      position: absolute;
-      top: 330px;
-      left: 0; } }
+  width: 100%;
+  border-bottom: 1px solid #F1F1F1; }
 
 .twitter-follow-button {
-  position: fixed !important;
-  top: 0;
-  right: 0;
-  margin: 16px;
-  z-index: 100; }
+  display: block;
+  margin: 32px auto; }
 
-.typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite; }
+.bg-color {
+  background-color: #F1F1F1;
+  padding: 32px 0;
+  z-index: 50;
+  position: relative; }
 
-@keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+.job-container {
+  max-width: 700px;
+  padding: 0 16px;
+  margin: auto; }
+
+.job {
+  height: 45px;
+  margin: 16px 0;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  display: block;
+  color: #00042d; }
+  @media (max-width: 600px) {
+    .job {
+      height: 70px; } }
+  .job__title {
+    float: left;
+    width: 60%; }
+    .job__title h3 {
+      font-family: "Bitter", serif;
+      margin: 0 0 4px;
+      font-weight: 400; }
+    .job__title p {
+      margin: 0;
+      color: #A2A2A2; }
+    @media (max-width: 600px) {
+      .job__title {
+        width: 100%; } }
+  .job__timestamp {
+    float: left;
+    width: 40%; }
+    .job__timestamp p {
+      text-align: right; }
+    @media (max-width: 600px) {
+      .job__timestamp {
+        width: 100%; }
+        .job__timestamp p {
+          text-align: left;
+          margin: 4px 0 0; } }
+
+@media (min-width: 600px) {
+  .hide-for-large {
+    display: none; } }
+
+@media (max-width: 600px) {
+  .hide-for-small {
+    display: none; } }
+
+.footer {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 32px 16px 16px; }
+  .footer a {
+    background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .footer__signoff p {
+    margin: 0; }
+
+.jobAdvert {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 16px; }
+  .jobAdvert__heading {
+    margin: 0 0 32px; }
+    .jobAdvert__heading h2 {
+      font-family: "Bitter", serif;
+      font-size: 2em;
+      margin: 16px 0 8px; }
+    .jobAdvert__heading h3 {
+      font-size: 1.5em;
+      font-weight: normal;
+      margin: 0; }
+      .jobAdvert__heading h3 a {
+        background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    .jobAdvert__heading p {
+      margin: 8px 0; }
+
+.apply {
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-top: 32px; }
+  .apply__title {
+    font-size: 1.5em;
+    font-weight: bold; }
+  .apply p {
+    margin: 8px 0; }
+  .apply a {
+    background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.back {
+  margin-top: 32px;
+  display: block;
+  background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 /*# sourceMappingURL=style.css.map */

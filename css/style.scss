@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700|Source+Sans+Pro:400,700,900');
 
 $primary-font: 'Bitter', serif ;
 $secondary-font: 'Source Sans Pro', sans-serif;
+$mobile-break-point: 600px;
 
 body {
-  margin: 0;
-  padding: 0 16px;
-  background-color: #F1F1F1;
+  margin: auto;
+
+  background-color: white;
   font-family: $secondary-font;
+  color: #00042d;
 }
 
 a {
@@ -22,49 +24,78 @@ h1 {
   padding: 8px 0 16px 0;
 }
 
-.header-wrapper {
-  text-align: center;
+.header-container {
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  position: relative;
+}
 
-  img {
-    margin-top: 32px;
-    width: 50px;
-  }
+.header {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px;
 
   p {
-    max-width: 550px;
-    margin: auto;
-    padding: 0 0 32px 0;
+    text-align: center;
+    padding: 32px 0 8px 0;
+    margin: 0;
   }
 
-  @media (max-width: 600px) {
+  &__navigation {
+    padding: 16px 0;
+    height: 40px;
 
     img {
-      margin-top: 16px;
+      float: left;
+      width: 40px;
     }
 
-    p {
-      position: absolute;
-      top: 210px;
+    h1 {
+      float: left;
+      padding: 10px 0 0 8px;
+      font-weight: 400;
+    }
+
+    a {
+      color: #00042d;
+    }
+  }
+
+  &__headline {
+    text-align: center;
+    font-family: $primary-font;
+    font-size: 1.3em;
+
+    h2 {
+      margin: 32px 0 16px;
+      line-height: 1.4em;
+    }
+
+    @media (max-width: $mobile-break-point) {
+      font-size: .9em;
+
+      h2 {
+        margin: 32px 0 8px;
+      }
     }
   }
 
 }
 
-.headline {
-  font-family: $primary-font;
-  font-size: 1.3em;
+.button {
+  color: white!important;
+  font-size: 13px;
+  font-family: $secondary-font;
+  float: right;
+  border-radius: 3px;
+  background-color: #11CD86;
+  padding: 11px 18px;
+  letter-spacing: .03em;
+  transition: all 0.23s ease-in-out 0s;
 
-  h2 {
-    margin: 32px 0 16px;
-    line-height: 1.4em;
-  }
-
-  @media (max-width: 600px) {
-    font-size: .9em;
-
-    h2 {
-      margin: 16px 0 8px;
-    }
+  &:hover {
+    opacity: .7;
   }
 }
 
@@ -72,41 +103,176 @@ h1 {
   clear:left;
   font-family: $secondary-font;
   width:100%;
-
-  @media (max-width: 600px) {
-    position: absolute;
-    top: 330px;
-    left: 0;
-  }
+  border-bottom: 1px solid #F1F1F1;
 }
 
 .twitter-follow-button {
-  position: fixed!important;
-  top: 0;
-  right: 0;
-  margin: 16px;
-  z-index: 100;
+  display: block;
+  margin: 32px auto;
 }
 
-.typed-cursor{
-	opacity: 1;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
+.bg-color {
+  background-color: #F1F1F1;
+  padding: 32px 0;
+  z-index: 50;
+  position: relative;
 }
 
-@keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+.job-container {
+  max-width: 700px;
+  padding: 0 16px;
+  margin: auto;
 }
-@-webkit-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+.job {
+  height: 45px;
+  margin: 16px 0;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  padding: 16px;
+  display: block;
+  color: #00042d;
+
+  @media (max-width: $mobile-break-point) {
+    height: 70px;
+  }
+
+  &__title {
+    float: left;
+    width: 60%;
+
+    h3 {
+      font-family: $primary-font;
+      margin: 0 0 4px;
+      font-weight: 400;
+    }
+
+    p {
+      margin: 0;
+      color: #A2A2A2;
+    }
+
+    @media (max-width: $mobile-break-point) {
+      width: 100%;
+    }
+  }
+
+  &__timestamp {
+    float: left;
+    width: 40%;
+
+    p {
+      text-align: right;
+    }
+
+    @media (max-width: $mobile-break-point) {
+      width: 100%;
+
+      p {
+        text-align: left;
+        margin: 4px 0 0;
+      }
+    }
+  }
 }
-@-moz-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+.hide-for-large {
+  @media (min-width: $mobile-break-point) {
+    display: none;
+  }
+}
+
+.hide-for-small {
+  @media (max-width: $mobile-break-point) {
+    display: none;
+  }
+}
+
+.footer {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 32px 16px 16px;;
+
+  a {
+    background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__signoff {
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.jobAdvert {
+
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  &__heading {
+
+    margin: 0 0 32px;
+
+    h2 {
+      font-family: $primary-font;
+      font-size: 2em;
+      margin: 16px 0 8px;
+    }
+
+    h3 {
+      font-size: 1.5em;
+      font-weight: normal;
+      margin: 0;
+
+      a {
+        background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    p {
+      margin: 8px 0;
+    }
+  }
+
+  &__body {
+
+  }
+}
+
+.apply {
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  padding: 16px;
+  margin-top: 32px;
+
+  &__title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 8px 0;
+  }
+
+  a {
+    background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.back {
+  margin-top: 32px;
+  display: block;
+  background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
