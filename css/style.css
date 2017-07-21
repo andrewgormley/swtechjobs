@@ -67,7 +67,7 @@ h1 {
   .button:hover {
     opacity: .7; }
 
-.mc_embed_signup {
+#mc_embed_signup {
   clear: left;
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
