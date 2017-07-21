@@ -6,7 +6,7 @@
         <?php include "includes/navigation.php"; ?>
 
         <div class="header__headline">
-          <h2>Looking for a position as </br><span class="element"></span></h2>
+          <h2>Looking for a position as <br><span class="element"></span></h2>
         </div>
         <p>Subscribe for a weekly email with the latest jobs.</p>
 
