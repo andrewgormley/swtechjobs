@@ -66,7 +66,7 @@
 
           <div class="apply">
             <div class="apply__title">How to apply for this role</div>
-            <p>Click the 'apply for position' button on <a href="http://prodirectcareers.com/careers/content-editor-running/" target="_blank">this page</a>.</p>
+            <p>Click the 'apply for position' button at the bottom of <a href="http://prodirectcareers.com/careers/content-editor-running/" target="_blank">our website</a>.</p>
           </div>
 
           <?php include "includes/back.php"; ?>
