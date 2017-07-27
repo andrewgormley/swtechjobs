@@ -3,7 +3,7 @@
 <a href="spongeuk-project-manager" class="job">
   <div class="job__title">
     <h3>Project Manager</h3>
-    <p>Sponge UK - Plymouth, with UK and global travel</p>
+    <p>Sponge UK - Plymouth</p>
   </div>
 
   <div class="job__timestamp">

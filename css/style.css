@@ -170,6 +170,10 @@ h1 {
         -webkit-text-fill-color: transparent; }
     .jobAdvert__heading p {
       margin: 8px 0; }
+  .jobAdvert__body a {
+    background: -webkit-linear-gradient(0deg, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 .apply {
   background-color: white;
