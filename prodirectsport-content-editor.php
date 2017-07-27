@@ -13,7 +13,8 @@
         <div class="jobAdvert__heading">
           <h2>Content Editor</h2>
           <h3><a href="http://prodirectsport.com/" target="_blank">Pro:Direct Sport</a> - Newton Abbot</h3>
-          <p>Contract type - Full time</p>
+          <p>Contract type: Full time</p>
+          <p>Salary: £16,200 - £18,000</p>
         </div>
         <div class="jobAdvert__body">
 

@@ -13,7 +13,8 @@
         <div class="jobAdvert__heading">
           <h2>Videographer</h2>
           <h3><a href="http://prodirectsport.com/" target="_blank">Pro:Direct Sport</a> - Newton Abbot</h3>
-          <p>Contract type - Full time</p>
+          <p>Contract type: Full time</p>
+          <p>Salary: Competitive</p>
         </div>
         <div class="jobAdvert__body">
 
