@@ -27,7 +27,9 @@
     <div class="bg-color">
       <div class="job-container">
 
-        <?php include "includes/jobs.php"; ?>
+        <?php include "includes/programming-jobs.php"; ?>
+        <?php include "includes/design-jobs.php"; ?>
+        <?php include "includes/other-jobs.php"; ?>
 
       </div>
     </div>
